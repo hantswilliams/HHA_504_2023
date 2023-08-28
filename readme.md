@@ -15,6 +15,7 @@
 
 ### Azure/GCP Resources:
 - [Azure for Python](https://learn.microsoft.com/en-us/azure/developer/python/)
+- [Azure for Students](https://azure.microsoft.com/en-us/free/students)
 - [GCP for Python](https://cloud.google.com/python)
 
 ### Homework:
