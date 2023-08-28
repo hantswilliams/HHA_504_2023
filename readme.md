@@ -17,6 +17,7 @@
 - [Azure for Python](https://learn.microsoft.com/en-us/azure/developer/python/)
 - [Azure for Students](https://azure.microsoft.com/en-us/free/students)
 - [GCP for Python](https://cloud.google.com/python)
+- [GCP for Students](https://cloud.google.com/edu/students)
 
 ### Homework:
 - Register for free student account (with your .edu) on Microsoft Azure 
