@@ -8,10 +8,18 @@
     <h1>Hospital Priceline</h1>
 
     <!-- add in a simple find search to the table -->
-    <form action="/find" method="post">
-        <label for="search">Search:</label>
+    <form action="/find-code" method="post">
+        <label for="search">Search by CPT code:</label>
         <input type="text" name="search" id="search" />
-        <input type="submit" value="Search" />
+        <input type="submit" value="Search CPT" />
+    </form>
+
+    <br />
+
+    <form action="/find-code-description" method="post">
+        <label for="search">Search by CPT description:</label>
+        <input type="text" name="search" id="search" />
+        <input type="submit" value="Search Description" />
     </form>
 
     <!-- create home button that directors to / -->
