@@ -20,7 +20,7 @@
 ### Homework:
 - Register for free student account (with your .edu) on Microsoft Azure 
 - You will be receiving GCP access codes from me
-- Explore the Azure dashboard and list out 5 services under each of the main principles: 
+- Explore the Azure dashboard and 1. list out at least two services for each of the below core categories, 2. provide your own brief description of what it does based on the service documentation, and 3. how you may or could interact with it using python (no code is required though):  
     - Storage
     - Compute
     - Database services. 
