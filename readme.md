@@ -20,12 +20,7 @@
 - [GCP for Students](https://cloud.google.com/edu/students)
 
 ### Homework:
-- Register for free student account (with your .edu) on Microsoft Azure 
-- You will be receiving GCP access codes from me
-- Explore the Azure dashboard and 1. list out at least two services for each of the below core categories, 2. provide your own brief description of what it does based on the service documentation, and 3. how you may or could interact with it using python (no code is required though):  
-    - Storage
-    - Compute
-    - Database services. 
+- [Assignment 1](WK1/assignment1.md)
 
 
 ---
@@ -47,9 +42,8 @@
 - [Azure App Service Quickstart for Python](https://learn.microsoft.com/en-us/azure/app-service/quickstart-python)
 
 ### Homework:
-1. Set up a basic Flask application and create a home page using Jinja templating.
-2. Deploy your Flask application to Azure App Service using the resources provided in the lecture. Provide the deployed URL in your submission.
-3. (Optional) Explore FastAPI and try deploying a basic FastAPI application on Azure App Service.
+- [Assignment 2](WK2/assignment2.md)
+
 
 ---
 
@@ -79,10 +73,8 @@
 - [Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-python)
 
 ### Homework:
-1. Import at least two different hospital system pricing transparency datasets into a pandas DataFrame. Conduct a basic exploratory analysis using Python.
-2. Set up a local SQLite database and use the `to_sql` function from pandas to push tables from the DataFrame to this database.
-3. Push the cleaned and preprocessed data to databases in both Azure SQL Database and Google SQL Server. Provide the connection string (without credentials) or database URL for verification.
-4. (Optional) Write custom SQL queries to perform a basic analysis on the data pushed to Azure and GCP databases.
+- [Assignment 3](WK3/assignment3.md)
+
 
 ---
 
@@ -116,9 +108,7 @@
 - [Alembic Tutorial](https://alembic.sqlalchemy.org/en/latest/tutorial.html)
 
 ### Homework:
-1. Install MySQL on a VM provided by Azure or GCP. Secure your installation and create a simple database with a couple of tables.
-2. For the Flask application from earlier assignments, implement connection pooling. Monitor and document how the app behaves under various connection scenarios (e.g., simulate high traffic).
-3. Introduce a significant change in your application (like adding a new feature) that requires database changes. Implement a migration to handle this change. Document the steps and results.
+- [Assignment 4](WK4/assignment4.md)
 
 ---
 
@@ -141,11 +131,7 @@
 - [Google Cloud CDN with Flask](https://cloud.google.com/appengine/docs/flexible/serving-static-files?tab=python)
 
 ### Homework:
-1. Design a search page using Tailwind CSS for the Hospital Priceline application. The design should be responsive and adhere to good user experience principles.
-2. Incorporate at least two static images relevant to the Hospital Priceline theme into your design (e.g., a hospital or medical symbol, a price tag icon, etc.).
-3. Host the Tailwind CSS library, the static images, and any other relevant assets on Google Cloud CDN. Use these CDN-hosted assets in your Flask application.
-4. Optimize your page load by ensuring that the static assets are being served from the CDN. Provide screenshots or other proof that the assets are being delivered from the CDN.
-5. (Optional) Explore Google Cloud CDN's caching rules and apply a custom caching rule for one of your assets. Document the configuration and its expected behavior.
+- [Assignment 5](WK5/assignment5.md)
 
 ---
 
@@ -183,11 +169,7 @@
 - [Azure API Management Tutorial](https://learn.microsoft.com/en-us/azure/api-management/import-and-publish)
 
 ### Homework:
-1. Develop a RESTful endpoint in Flask to search for pricing data by CPT code. Use Flask-RESTful to facilitate this.
-2. Replicate the same endpoint using FastAPI. Observe the differences in setup, design, and performance.
-3. Extract the automatically generated OpenAPI Specification from the FastAPI app.
-4. Integrate your FastAPI app with Azure API Management using the OpenAPI spec.
-5. (Optional) Implement a basic form of API security (API key, JWT token) for both Flask and FastAPI endpoints using Azure API management.
+- [Assignment 6](WK6/assignment6.md)
 
 ---
 
@@ -221,13 +203,8 @@
 - Requests: For making HTTP requests
 
 ### Homework:
-1. Set up Flask-Session in your Hospital Priceline application to manage user sessions.
-2. Utilizing the `identity` and `identity.web` modules, implement a user authentication system for Hospital Priceline. This should include:
-   - User registration with password hashing
-   - User login with session creation
-   - User logout with session destruction
-3. Integrate a cloud-based authentication system, either Azure Active Directory B2C or Google Cloud Identity Platform, into your application. Add sign-in and sign-out buttons to the app's UI. 
-4. Follow the [Azure Managed Identity with Python](https://learn.microsoft.com/en-us/azure/active-directory/develop/scenario-web-app-sign-user-overview?tabs=python) tutorial to further enhance and secure your authentication flow.
+- [Assignment 7](WK7/assignment7.md)
+
 
 ---
 
@@ -260,10 +237,7 @@
 
 
 ### Homework:
-1. Deploy your Hospital Priceline application to Vercel and set up a custom domain for your service (optional).
-2. Deploy the same application to both Google Cloud Run and Azure App Service.
-3. Set up a basic CI/CD pipeline using GitHub Actions to automate deployment whenever you push to a specific branch in your GitHub repository for the Azure App Service.
-4. (Optional) Containerize your Flask/FastAPI application using Docker, push it to Docker Hub, and then deploy the containerized app to Azure Container Apps.
+- [Assignment 8](WK8/assignment8.md)
 
 ---
 
@@ -300,11 +274,7 @@
 - [Azure Monitor with Opencensus-Python](https://learn.microsoft.com/en-us/azure/azure-monitor/app/opencensus-python)
 
 ### Homework:
-1. Integrate Python's built-in logging module into your Flask application. Ensure logs are written at different severity levels (INFO, WARNING, ERROR).
-2. Set up distributed tracing for your application using OpenCensus or a similar platform.
-3. Integrate your application with Azure Monitor or Google Cloud Monitoring, and set up basic performance metrics monitoring.
-4. Trigger an error within your application intentionally and utilize your logging setup to diagnose the issue.
-5. (Optional) Set up alerts or notifications based on specific conditions (e.g., server response time exceeding a threshold) in Azure Monitor or Google Cloud Monitoring.
+- [Assignment 9](WK9/assignment9.md)
 ---
 
 ## 10. **Scaling and Performance**
@@ -353,12 +323,7 @@
 - [Google Cloud Load Balancing](https://cloud.google.com/load-balancing)
 
 ### Homework:
-1. Set up a basic load balancer for your Flask application on either Azure or Google Cloud. Ensure it routes traffic to multiple instances of your application.
-2. Integrate a caching solution (e.g., Redis) into your Flask application to cache frequent database queries or static assets.
-3. Simulate high traffic using tools like locust.io. Monitor how your application handles the load and identify potential bottlenecks.
-4. Implement basic auto-scaling rules based on CPU or memory usage for your Flask application.
-5. Research a high-traffic web application (like Twitter, Netflix, or any other of your choice). Write a 1 page report on how it handles scaling, the strategies it employs, and potential challenges it faces. Dive deep into aspects like CDN usage, database scaling techniques, and how they handle peak loads (like during a major event).
-6. (Optional) Look into containerizing your Flask application with Docker, then deploy it on a platform like Azure Kubernetes Service or Google Kubernetes Engine. Discuss the benefits this might bring to scaling.
+- [Assignment 10](WK10/assignment10.md)
 
 ---
 
@@ -378,9 +343,7 @@
 - [Google Cloud Storage](https://cloud.google.com/storage)
 
 ### Homework:
-1. Modify Hospital Priceline to allow users to upload proof of pricing (e.g., a bill). Initially, store this file locally in the Flask app.
-2. Transition your local storage solution to either Azure Blob Storage or Google Cloud Storage. Adjust your app to read and write the uploaded files from/to this cloud storage.
-3. Research and write a brief report on the pricing model of your chosen cloud storage solution and how it compares to traditional hosting or databases in terms of cost.
+- [Assignment 11](WK11/assignment11.md)
 
 
 ---
@@ -405,10 +368,7 @@
 - [Google Cloud Security Command Center](https://cloud.google.com/security-command-center)
 
 ### Homework:
-1. Implement `.env` files in Hospital Priceline, ensuring that sensitive information is not exposed.
-2. Use Azure Security Center or Google Cloud Security Command Center to run a security assessment on your Hospital Priceline deployment. Document any findings and proposed solutions.
-3. Research and write a brief essay on the 'Shared Responsibility' model. Explain its significance and how it impacts developers and businesses using cloud platforms.
-4. Identify 3 potential security vulnerabilities in Hospital Priceline, and for each, provide a proposed solution and implementation strategy to mitigate the risk. You do not need to write any code for this. 
+- [Assignment 12](WK12/assignment12.md)
 
 ---
 
@@ -431,10 +391,7 @@
 - [Google Cloud Functions Tutorial for Python](https://cloud.google.com/functions/docs/tutorials/http)
 
 ### Homework:
-1. Develop a serverless function that performs an analytical task on the hospital pricing data, such as calculating the average price for a certain procedure across all hospitals. This offloads the analytical processing, keeping the main application snappy.
-2. Create another function to send email notifications to users when new hospital pricing data is available or when there are significant changes in pricing.
-3. Integrate these serverless functions into the Hospital Priceline application, ensuring that they are triggered appropriately (e.g., upon data update).
-4. Document the performance and latency benefits observed from offloading the analytical processing to a serverless function.
+- [Assignment 13](WK13/assignment13.md)
 
 ---
 
@@ -458,9 +415,7 @@
 5. **Notifications**: Use third-party services like `Twilio` for SMS notifications or `SendGrid` for email notifications to alert users about significant changes in pricing.
 
 ### Homework:
-1. Design and implement at least two new features for the Hospital Priceline application, based on the suggested features or your own ideas.
-2. Ensure that the new features align well with the cloud resources learned throughout the course.
-3. Present the developed project, showcasing its enhanced functionality, scalability, the cloud services utilized, and a brief explanation of the chosen features' relevance and importance.
+- [Assignment 14](WK14/assignment14.md)
 
 
 ---
