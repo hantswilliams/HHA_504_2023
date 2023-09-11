@@ -7,7 +7,7 @@ Get hands-on experience setting up a Flask application, integrate it with data p
 
 #### **1. Setting Up Your Flask Application**:
 - Initiate a new Flask application. You can use one of my to start. 
-- Integrate Jinja templating to set up a homepage (`index.html`) for your app. 
+- Integrate Jinja templating to set up a homepage (`base.html`) for your app. 
 - Use Pandas to load data from a provided file (choose a format: CSV, JSON). Ensure that your data file is less than 10MB for efficient loading. 
 - Display the data on your homepage using a basic table.
 

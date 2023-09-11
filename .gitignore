@@ -5,3 +5,5 @@ __pycache__/
 # ## ignore WK2, WK3, WK4....WK15 folders
 # WK[2-9]/
 # WK1[0-5]/
+
+.env
