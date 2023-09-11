@@ -22,7 +22,7 @@ Get hands-on experience setting up a Flask application, integrate it with data p
 - Set up and deploy a basic FastAPI application on Azure App Service.
 
 #### **3. Preparing Your GitHub Submission**:
-- Create a new GitHub repository named `flask_2_intro` in your GitHub account.
+- Create a new GitHub repository named `azure_flask_deployment` in your GitHub account.
 - Feel free to re-use parts of your code from prior assignments where necessary 
   - Include your Python code for the Flask application.
   - Upload the data file you used.
