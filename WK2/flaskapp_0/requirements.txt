@@ -1,4 +1,4 @@
 python-dotenv
 pandas
 flask 
-gunicorn==19.9.0
+gunicorn
