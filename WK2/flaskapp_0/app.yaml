@@ -13,8 +13,7 @@
 # limitations under the License.
 
 runtime: python39
-entrypoint: gunicorn -b :8000 app:app
-
+entrypoint: gunicorn -b :$PORT app:app
 
 handlers:
   # This configures Google App Engine to serve the files in the app's static
