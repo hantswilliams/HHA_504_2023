@@ -1,45 +1,39 @@
-## **Week 3 Homework Assignment: Introduction to Databases with SQLite and Cloud SQL Services**
+## **Week 3 Homework Assignment: Introduction to Databases with SQLite**
 
 ### **Objective**:
-Get a deep dive into databases, starting with SQLite, and gradually move on to cloud SQL services. You'll integrate data processing with Python, use Pandas for exploratory data analysis, and handle database operations with both SQLite and cloud databases.
+Introduction to the world of databases, starting with SQLite. Integrate data processing with Python, utilize Pandas for exploratory data analysis, and conduct database operations using SQLite.
 
 ### **Instructions**:
 
 #### **1. Data Exploration and Analysis**:
-- Import pricing transparency datasets from at least two different hospital systems into a pandas DataFrame.
-  - Conduct a basic exploratory analysis using Python, looking at things like data distribution, missing values, and basic statistics.
-  - Document any interesting insights or observations from your analysis.
+- Import pricing transparency datasets from at least two different hospital systems into a Pandas DataFrame.
+  - Conduct a basic exploratory analysis using Python, focusing on aspects such as data distribution, missing values, and basic statistics.
+  - Document any captivating insights or observations derived from your analysis.
+  - Expection is to have at least basic descriptive statistics for numerical columns, and frequency counts for categorical columns
 
 #### **2. SQLite Database Operations**:
-- Set up a local SQLite database.
-- Use the `to_sql` function from pandas to transfer data from your DataFrame to the SQLite database.
-  - Make sure your tables are correctly structured and the data types are appropriate for efficient queries.
-
-#### **3. Moving to the Cloud: Azure SQL Database & Google SQL Server**:
-- Push your cleaned and preprocessed data to databases in both:
-  - Azure SQL Database
-  - Google SQL Server
-- Provide the connection string (without credentials) or database URL for verification.
-  - Ensure proper security measures: don't expose any sensitive data or credentials.
+- Establish a local SQLite database.
+- Implement the `to_sql` function from Pandas to transfer your DataFrame's data into the SQLite database.
+  - Ensure your tables possess the correct structure and that the data types are correct
 
 #### **(Optional) Dive Deeper with SQL**:
-- Write custom SQL queries to conduct a basic analysis on the data you've pushed to Azure and GCP databases.
-  - For example, you might look for patterns in pricing across different hospital systems, or anomalies in the data that could indicate errors or interesting events.
-- Document your SQL queries, the results, and any conclusions or insights drawn from them.
+- Draft at least one custom `select` SQL query to perform a rudimentary analysis on the data within your SQLite database.
+  - For instance, explore patterns in pricing for a specific code (CPT) across different insurances
+- Document the SQL queries you've written, the subsequent results, and any conclusions or insights that emerge from them.
 
 ### **Submission**:
-- Create a new GitHub repository named `flask_4_cloud_mysql_flask` in your GitHub account.
-- Feel free to re-use parts of your code from prior assignments where necessary 
-- Prepare your GitHub repository:
-  - Your Python scripts detailing your exploratory data analysis and database operations.
-  - SQL scripts with your custom SQL queries and analysis (if you chose the optional task).
-  - A detailed README.md file, outlining:
-    - The datasets you've chosen.
-    - The process of exploratory data analysis.
-    - Steps to replicate your SQLite, Azure, and GCP database setups.
-    - Any other relevant documentation or instructions.
-- Share the link to your repository as your assignment submission.
-- Ensure your repository is public so that it's accessible for review.
+- Initiate a new GitHub repository titled `sqlite_database_operations` in your GitHub account.
+- Leverage components of code from prior assignments where necessary.
+- Configure your GitHub repository to include:
+  - Python scripts illustrating your exploratory data analysis and database transactions.
+  - SQL scripts containing your custom SQL queries and analysis (if you embarked on the optional task).
+  - A comprehensive README.md file that provides:
+    - Details on the datasets you've selected.
+    - An account of the exploratory data analysis process.
+    - Instructions to replicate your SQLite database setup.
+    - Any other pertinent documentation or guidelines.
+- Present the URL of your repository as your assignment submission.
+- Confirm that your repository is public to ensure it's available for evaluation.
 
-**Tip**: Remember the importance of data preprocessing before pushing to any database. This not only ensures data integrity but also optimizes for efficient storage and querying.
+**Tip**: The process of data preprocessing prior to its transfer to any database is crucial. Not only does it guarantee data accuracy, but it also fosters efficient storage and querying.
 
