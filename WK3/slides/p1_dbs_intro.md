@@ -12,6 +12,41 @@ theme: default
 
 ---
 
+# Database Learning Progression
+
+---
+
+## 1. SQLite: Grasping the Basics
+- **Lightweight, serverless database**
+- Understand fundamentals without complex setup or maintenance
+- Activities: CRUD operations, simple queries, table creations
+
+---
+
+## 2. Managed MySQL on Cloud Platforms
+- **Why Managed?**
+    - Ease of setup, automated backups, scalability
+- Platforms:
+    - **Google Cloud Platform (GCP)**: Cloud SQL for MySQL
+    - **Azure**: Azure Database for MySQL
+- Activities:
+    - Advanced SQL, security, integrating with apps, scalability exercises
+
+---
+
+## 3. Manual MySQL Installation on VM
+- Deep dive into the intricacies
+- Platforms: VMs on GCP or Azure
+- Activities:
+    - Setup, user roles, performance tuning, backups, recovery
+
+---
+
+## Key Takeaway
+Solid foundation ➡️ Best practices in real-world environments ➡️ Advanced understanding
+
+---
+
 ## What is a Database?
 
 - Organized collection of structured information
