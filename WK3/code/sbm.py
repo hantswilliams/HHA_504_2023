@@ -93,3 +93,10 @@ stonybrook_modified.to_sql('stonybrook', conn, if_exists='replace', index=False)
 ## Now perform the same query in pandas to make sure it worked, just return the first 5 rows
 
 pd.read_sql('''SELECT * FROM stonybrook LIMIT 5''', conn)
+
+## Now as a example, load in the sql query from the file WK3/code/sql_query1.sql and run it
+## Sometimes it is beneficial to store your queries in a sql file and load them in as needed, that way
+## if you are in a IDE like VS Code, you can get syntax highlighting and other benefits
+
+sql_query1 = open("WK3/code/sbm_query1.sql", 'r').read()
+pd.read_sql(sql_query1, conn)
