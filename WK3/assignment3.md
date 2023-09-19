@@ -6,15 +6,17 @@ Introduction to the world of databases, starting with SQLite. Integrate data pro
 ### **Instructions**:
 
 #### **1. Data Exploration and Analysis**:
-- Import pricing transparency datasets from at least two different hospital systems into a Pandas DataFrame.
+1.1 Import pricing transparency datasets from at least two different hospital systems into a Pandas DataFrame. You can use one of the examples provided in the WK3/data folder, or try finding a hospital on your own. The google search approach I used to find these ones was: `{hospital name} price transparency machine readible` - replacing hospital name with the name of the hospital you want to find data for. There will typically be a page that contains download links for a .CSV, .JSON, or .XLS(X) file.  
   - Conduct a basic exploratory analysis using Python, focusing on aspects such as data distribution, missing values, and basic statistics.
   - Document any captivating insights or observations derived from your analysis.
-  - Expection is to have at least basic descriptive statistics for numerical columns, and frequency counts for categorical columns
+  - My expection is to have at least basic descriptive statistics for numerical columns, and frequency counts for categorical columns
 
 #### **2. SQLite Database Operations**:
-- Establish a local SQLite database.
-- Implement the `to_sql` function from Pandas to transfer your DataFrame's data into the SQLite database.
-  - Ensure your tables possess the correct structure and that the data types are correct
+2.1 Create a local SQLite database called `health.db`
+
+2.2 *Manual table creation*: Manually create a table (schema) using `CREATE TABLE` SQL query. The table should contain at least 5 columns. Please have at least two columns be numerical columns, and two columns should be categorical (string) columns. Then write at least one `INSERT INTO` SQL query to populate 1 or 2 rows worth of fake data. 
+
+2.3. *Automatic table creation*: Implement the `to_sql` function from Pandas to take the example data from Part 1 of this assignment into the SQLite database.
 
 #### **(Optional) Dive Deeper with SQL**:
 - Draft at least one custom `select` SQL query to perform a rudimentary analysis on the data within your SQLite database.
@@ -25,8 +27,8 @@ Introduction to the world of databases, starting with SQLite. Integrate data pro
 - Initiate a new GitHub repository titled `sqlite_database_operations` in your GitHub account.
 - Leverage components of code from prior assignments where necessary.
 - Configure your GitHub repository to include:
-  - Python scripts illustrating your exploratory data analysis and database transactions.
-  - SQL scripts containing your custom SQL queries and analysis (if you embarked on the optional task).
+  - Python scripts (or colab notebook) illustrating your exploratory data analysis and database transactions.
+  - Your custom SQL queries and analysis (if you embarked on this optional task).
   - A comprehensive README.md file that provides:
     - Details on the datasets you've selected.
     - An account of the exploratory data analysis process.
