@@ -12,6 +12,13 @@ theme: default
 
 ---
 
+# Interesting Things...
+
+- [Doctor Chat GPT](https://www.linkedin.com/posts/bertalanmesko_a-boy-saw-17-doctors-over-3-years-for-chronic-activity-7107775111792844801-4VNk/?utm_source=share&utm_medium=member_ios)
+
+
+---
+
 # Database Learning Progression
 
 ---
