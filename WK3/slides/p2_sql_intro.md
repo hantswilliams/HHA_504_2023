@@ -225,5 +225,28 @@ ALTER TABLE patients ADD COLUMN phone_number TEXT;
 
 ---
 
-## Additional Resources
-- [W3 Schools Tutorial SQL](https://www.w3schools.com/sql/default.asp) 
+
+## Official MySQL 8.0 Database Developer Professional
+- For students: [Oracle Academy Course](https://education.oracle.com/oracle-database-foundations-novice-level-exam/pexam_1Z0-006)
+  - [DB Foundations](https://academy.oracle.com/en/solutions-curriculum.html) OR 
+  - [DB and Programmign with SQL](https://academy.oracle.com/pages/database_design_course.pdf)
+- More advanced: [Oracle University](https://mylearn.oracle.com/ou/learning-path/earn-the-mysql-80-database-developer-certified-professional-credential/82110/)
+  - I would recommend focusing on the 'developer' path, as that involves actually creating tables/building queries/etc...
+  - [Other MySQL Certification Paths](https://education.oracle.com/oracle-certification-path/pFamily_406)
+
+---
+
+## Cloud-focused: 
+- Azure: This focuses more so on the deployment and underpinnings of a SQL server. [Azure SQL fundamentals](https://learn.microsoft.com/en-us/training/paths/azure-sql-fundamentals/)
+
+---
+
+## Free interactive SQL learning tutorials to practice: 
+- CodeAcademy: [Learn SQL](https://www.codecademy.com/learn/learn-sql)
+- Mode: [SQL Tutorial for Data Analysis](https://mode.com/sql-tutorial/introduction-to-sql)
+- SQLZoo: [Learn SQL Step by Step](https://sqlzoo.net/wiki/SQL_Tutorial)
+- SqlBolt: [20 Lessons](https://sqlbolt.com/)
+- SqlPractice: [Hospital.DB Practice Environment](https://www.sql-practice.com/)
+- W3: [W3 Schools Tutorial SQL](https://www.w3schools.com/sql/default.asp) 
+
+
