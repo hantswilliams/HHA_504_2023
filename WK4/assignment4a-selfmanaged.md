@@ -1,7 +1,7 @@
 ## **Week 4 Homework Assignment: MySQL on Cloud Platforms - Azure and GCP**
 
 ### **Objective**:
-This assignment dives into the world of databases, focusing on MySQL, and exploring its implementation on leading cloud platforms: Azure and GCP. By the end, you'll gain hands-on experience in setting up MySQL on these platforms, using MySQL Workbench to design, manage, and interact with your databases, and optionally connecting to your database using Python to retrieve data.
+This assignment focuses on MySQL, and exploring its implementation on leading cloud platforms: Azure and GCP. By the end, you'll gain hands-on experience in setting up MySQL on these platforms, using MySQL Workbench to design, manage, and interact with your databases, and optionally connecting to your database using Python to retrieve data.
 
 ### **Instructions**:
 
@@ -12,11 +12,11 @@ This assignment dives into the world of databases, focusing on MySQL, and explor
 #### **2. MySQL Workbench for Database Interaction**:
 - Install and configure MySQL Workbench on your local machine.
 - Connect MySQL Workbench to the MySQL instances you set up in step 1.
-- Design and generate an Entity-Relationship Diagram (ERD) for your databases using MySQL Workbench.
+- Based off my provided SQL scripts in the WK4/code folder, generate an Entity-Relationship Diagram (ERD) for your databases using MySQL Workbench. You must create at least one new table, with at least 3 fields, that contains a primary key and a foreign key that connects it to another table. You can create the same data in both instances on Azure and GCP. 
 
-#### **3. Optional: Python Script for Database Interaction**:
-- Write a Python script that connects to your MySQL database.
-- Then using pandas, create some fake dumy data for each of the databases. Push the data into them. 
+#### **3. OPTIONAL BUT HIGHLY RECOMMENDED: Python Script for Database Interaction**:
+- Write a Python script that connects to your MySQL database. Please use my script as a example in WK4/code/python_connectionExample.py 
+- Then using pandas, create some fake dumy data for each of the tables in your databases. Push the data into them. 
 - Then retrieve data from one of the tables and store it in a Pandas DataFrame.
 - Document the process, including the libraries used, the connection method, and any challenges faced.
 - If you do this step, be sure to use a .ENV file to store your connection keys, and .gitignore to avoid sharing the .ENV file with github
