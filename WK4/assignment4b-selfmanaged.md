@@ -1,7 +1,7 @@
 ## **Week 4 Homework Assignment: MySQL on VMs with Azure and GCP**
 
 ### **Objective**:
-This week's assignment is all about diving deeper into databases, specifically MySQL, and understanding the nuances of running a database on a cloud VM. You'll get hands-on experience setting up a MySQL instance on a VM, integrating it with your Flask app, and tackling real-world challenges such as connection pooling and database migrations.
+Manually setting up and running a database on a cloud VM. You'll get hands-on experience setting up a MySQL instance on a VM, (optional but recommended: integrating it with your Flask app), and tackling real-world challenges such as connection pooling [and database migrations - maybe].
 
 ### **Instructions**:
 
@@ -19,7 +19,7 @@ This week's assignment is all about diving deeper into databases, specifically M
   - Monitor the behavior, especially in terms of database connections.
   - Document your observations: How does the application behave under different traffic conditions? Were there any unexpected behaviors or challenges?
 
-#### **3. Embrace Change with Database Migrations**:
+#### **3. Change with Database Migrations**:
 - Introduce a new feature to your Flask application that necessitates changes to your database (e.g., adding a new table or altering an existing one).
 - Implement a migration strategy to handle this database change.
   - Consider tools like Alembic or Flask-Migrate.
