@@ -1,30 +1,27 @@
 ## **Week 4 Homework Assignment: MySQL on VMs with Azure and GCP**
 
 ### **Objective**:
-Manually setting up and running a database on a cloud VM. You'll get hands-on experience setting up a MySQL instance on a VM, (optional but recommended: integrating it with your Flask app), and tackling real-world challenges such as connection pooling [and database migrations - maybe].
+Manually setting up and running a database on a cloud VM. You'll get hands-on experience setting up a MySQL instance on a VM, (optional but recommended: integrating it with a Flask app). 
 
 ### **Instructions**:
 
 #### **1. MySQL Setup on Azure/GCP VM**:
-- Spin up a VM on Azure or GCP.
+- Spin up a VM on Azure (and/or GCP). I suggest you do both for practice. 
 - Install MySQL on this VM. Ensure it's correctly configured and secured.
 - Create a simple database with at least two tables. Populate the tables with sample data.
   - Document the schema you've chosen and why.
+  - I suggest trying to have two tables where there is a foreign key relationship between them.
 
-#### **2. Integrate with Flask and Implement Connection Pooling**:
-- Modify your Flask application (from previous assignments) to connect to this new MySQL instance.
-- Implement connection pooling to manage and optimize database connections.
-  - Use tools or libraries like SQLAlchemy to facilitate this.
-- Simulate various traffic scenarios to your Flask application (e.g., high traffic).
-  - Monitor the behavior, especially in terms of database connections.
-  - Document your observations: How does the application behave under different traffic conditions? Were there any unexpected behaviors or challenges?
+#### **2. Integrate with Flask**:
+- Modify the past Flask application (from previous assignments), or create a new one, to connect to this new MySQL instance.
+- Use SQLAlchemy to facilitate the connection between the Flask application and MySQL.
+- Then display the data from the MySQL database on the Flask application.
+- Take screen shots showing your working application. 
 
-#### **3. Change with Database Migrations**:
-- Introduce a new feature to your Flask application that necessitates changes to your database (e.g., adding a new table or altering an existing one).
-- Implement a migration strategy to handle this database change.
-  - Consider tools like Alembic or Flask-Migrate.
-- Ensure your application and database work seamlessly post-migration.
-- Document the steps you undertook for this migration, challenges you faced, and the results of the migration.
+#### **3. [OPTIONAL] Deploying the Flask Application to Azure/GCP**:
+- Deploy the Flask application to Azure (and/or GCP).
+- Ensure the application is working correctly.
+- Take screenshots showing your working application.
 
 #### **4. Documenting Code Errors**:
 - Should you encounter errors or challenges that prevent you from completing any section, it's essential to document them.
@@ -37,16 +34,15 @@ Manually setting up and running a database on a cloud VM. You'll get hands-on ex
 - Create a new GitHub repository named `flask_4_databases_mysql_vm` in your GitHub account.
 - Feel free to re-use parts of your code from prior assignments where necessary 
 - Prepare your GitHub repository:
-  - Your Python scripts and Jupyter notebooks detailing your MySQL setup, connection pooling implementation, and database migration strategy.
-  - Screenshots or videos showcasing the working application, especially during the traffic simulation, post-migration, and any documented errors.
+  - Your Python scripts and Jupyter notebooks detailing your MySQL setup
+  - Screenshots or videos showcasing the working application, and any documented errors.
   - A detailed README.md file, outlining:
     - The VM and MySQL setup process.
     - The rationale behind your database schema.
-    - Your experience and findings from the connection pooling exercise.
     - Steps and challenges from the database migration process.
     - Documented code errors and your troubleshooting attempts.
     - Any other relevant documentation or instructions.
 - Share the link to your repository as your assignment submission.
 - Ensure your repository is public so that it's accessible for review.
 
-**Tip**: Security is paramount! Make sure your MySQL instance is properly secured, and never expose sensitive credentials or data.
+**Tip**: Security is paramount! Make sure your MySQL instance is properly secured, and never expose sensitive credentials or data. You should be using a .env file that stores your credentials *and is not committed to GitHub*.
