@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Data Table</title>
+    <!-- Include Tailwind CSS from CDN -->
+    <link href="https://cdn.tailwindcss.com/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-200 p-4">
+    <div class="max-w-screen-md mx-auto bg-white p-4 shadow-md">
+        <h1 class="text-2xl font-bold mb-4">Patient Data</h1>
+        <table class="table-auto w-full">
+            <thead>
+                <tr>
+                    <th class="px-4 py-2">First Name</th>
+                    <th class="px-4 py-2">Last Name</th>
+                    <th class="px-4 py-2">Date of Birth</th>
+                    <th class="px-4 py-2">Gender</th>
+                    <th class="px-4 py-2">Contact Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for patient in patients %}
+                    <tr>
+                        <td class="border px-4 py-2">{{ patient.first_name }}</td>
+                        <td class="border px-4 py-2">{{ patient.last_name }}</td>
+                        <td class="border px-4 py-2">{{ patient.date_of_birth }}</td>
+                        <td class="border px-4 py-2">{{ patient.gender }}</td>
+                        <td class="border px-4 py-2">{{ patient.contact_number }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
