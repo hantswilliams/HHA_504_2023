@@ -46,6 +46,19 @@ conn_string = (
 db_engine = create_engine(conn_string, echo=False)
 
 
+####### 2nd way of creating....if need to keep on SSL mode
+sql_connection_string = 'mysql+pymysql://' + DB_USERNAME + ':' + DB_PASSWORD + '@' + DB_HOST + ':' + DB_PORT + '/' + DB_DATABASE # noqa 
+db_engine = create_engine(sql_connection_string,
+                         connect_args={'ssl': {'ssl-mode': 'preferred'}},
+                         pool_size=1,
+                         max_overflow=0,
+                         pool_recycle=3600,
+                         pool_pre_ping=True,
+                         pool_use_lifo=True)
+
+##################################################################
+
+
 def get_tables(engine):
     """Get list of tables."""
     inspector = inspect(engine)

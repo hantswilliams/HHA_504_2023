@@ -28,7 +28,7 @@ class MedicalRecord(Base):
 
     patient = relationship('Patient', back_populates='records')
 
-# ## create connection and tables
-# DATABASE_URL = "mysql+mysqlconnector://hants:sbu-admin-2023@scratch-server:3306/hants"
-# engine = create_engine(DATABASE_URL)
-# Base.metadata.create_all(engine)
+## create connection and tables
+DATABASE_URL = "mysql+mysqlconnector://hants:sbu-admin-2023@scratch-server:3306/hants"
+engine = create_engine(DATABASE_URL)
+Base.metadata.create_all(engine)

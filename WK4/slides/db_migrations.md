@@ -12,6 +12,19 @@ paginate: true
 
 ---
 
+---
+
+## Interesting things
+
+- Want to help me Thursday? Ping me on teams, looking for assistance during a lecture.
+- Rockhealth
+  - https://www.linkedin.com/feed/update/urn:li:activity:7119732365920210945/ 
+  - https://rockhealth.com/insights/on-the-road-to-impact-mile-markers-for-early-stage-digital-health-startups/ 
+- Adrian Olsweksi
+  - https://www.linkedin.com/posts/adrianolszewski_hypothesistesting-statistics-datascience-activity-7117123896939544578-GAjp
+
+---
+
 # Database Migrations with SQLAlchemy
 
 ## Introduction to Database Migrations
@@ -20,6 +33,9 @@ paginate: true
   - Database migrations involve making structured changes to a database schema.
   - Essential for evolving database applications while preserving data integrity.
 
+![Replacing Table Column](../slides/replacing-a-table-column.png)
+
+---
 - **Why are Migrations Important?**
   - Support application updates, bug fixes, and new features.
   - Enable collaboration among development teams.
@@ -52,6 +68,13 @@ paginate: true
     - Prisma 
     - Flyway
 
+---
+
+## Why not write raw SQL for migrations, and use Sqlalchemy? 
+
+- **Database Agnosticism**: SQLAlchemy Alembic provides an abstraction layer that allows you to write database migration scripts in a database-agnostic way. This means you can write migration code once and apply it to multiple database management systems (e.g., MySQL, PostgreSQL, SQLite) without modification. Writing raw SQL queries for migrations would require writing different scripts for each database, making it less portable and maintainable.
+
+- **Version Control and History**: SQLAlchemy Alembic keeps a version history of your database schema changes, making it easier to track and manage the evolution of your database over time. When you write raw SQL queries for migrations, maintaining a version history and managing database changes becomes more challenging and error-prone. Alembic's versioning system helps ensure consistency and reliability in applying migrations.
 
 
 ---
@@ -92,11 +115,5 @@ paginate: true
 
 ---
 
-## Summary
-
-- Recap of Key Concepts
-- Emphasize the importance of safe and well-managed migrations
-- Encourage best practices and thorough testing
-- Q&A Session
 
 
