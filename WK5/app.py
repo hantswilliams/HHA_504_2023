@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker
 app = Flask(__name__)
 
 # Create a SQLite database (you can change this to your specific database)
-DATABASE_URL = "mysql+mysqlconnector://hants:sbu-admin-2023@scratch-server.mysql.database.azure.com/hants"
+DATABASE_URL = "mysql+mysqlconnector://hants:INSERT-HERE@scratch-server.mysql.database.azure.com/hants"
 app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL
 Base.metadata.bind = app
 

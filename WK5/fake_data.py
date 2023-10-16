@@ -6,8 +6,8 @@ import random
 from datetime import timedelta
 
 # Create a SQLite database (you can change this to your specific database)
-# DATABASE_URL = "mysql+mysqlconnector://hants:sbu-admin-2023@scratch-server:3306/hants"
-DATABASE_URL = "mysql+pymysql://hants:sbu-admin-2023@scratch-server:3306/hants"
+DATABASE_URL = "mysql+mysqlconnector://hants:sbu-admin-2023@scratch-server:3306/hants"
+# DATABASE_URL = "mysql+pymysql://hants:sbu-admin-2023@scratch-server:3306/hants"
 engine = create_engine(DATABASE_URL)
 
 # Create a session to interact with the database
