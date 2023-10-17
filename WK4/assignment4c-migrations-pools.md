@@ -8,7 +8,7 @@ Gain practical experience in managing a cloud-based MySQL database with a focus 
 #### **1. Connection Pooling Setup**:
 - **Azure**: Spin up an Azure MySQL Database instance.
 - **GCP**: Create a Google Cloud SQL MySQL instance.
-- Configure connection pooling for both the Azure databases.
+- Configure connection pooling for the Azure databases.
   - Define appropriate pool size and timeout settings.
     - `max_connections`: 20
     - `connect_timeout`: 3 
@@ -21,6 +21,8 @@ Gain practical experience in managing a cloud-based MySQL database with a focus 
 - Populate the tables with sample data.
   - Ensure there is a foreign key relationship between the tables.
   - Document the schema structure and data population process for both Azure and GCP instances.
+- For GCP example: https://github.com/hantswilliams/HHA_504_2023/blob/main/WK4/code/migrations/gcp.py 
+- For Azure example: https://github.com/hantswilliams/HHA_504_2023/blob/main/WK4/code/migrations/azure.py 
 
 #### **2b. Using MySQL Workbench to Generate ERD**:
 - Launch MySQL workbench adn connect it to your mySQL instance
