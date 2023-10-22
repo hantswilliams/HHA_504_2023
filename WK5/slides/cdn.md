@@ -165,7 +165,9 @@ There are several major Content Delivery Networks (CDNs) that dominate the marke
    - Offers global load balancing, Anycast IP addresses, and HTTP/HTTPS load balancing.
    - *Cloud CDN* and *Media CDN* are two separate products offered by GCP for content delivery.
         - Media CDN: https://cloud.google.com/media-cdn/docs/overview
+            - We will focus on MEDIA CDN only 
         - Cloud CDN: https://cloud.google.com/cdn/docs/overview 
+            - This is more advanced, for enhancing all of the content in your SaaS application with the CDN 
 
 
 ---
@@ -175,4 +177,29 @@ There are several major Content Delivery Networks (CDNs) that dominate the marke
    - Offers a global network of servers, real-time analytics, and custom domain support.
    - *Azure Front Door*
         - Front Door: https://azure.microsoft.com/en-us/products/frontdoor 
+        - We will focus on Azure CDN with Azure Storage 
+        - Tutorial: https://learn.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn 
 
+
+---
+
+# Tutorials to follow for HW:
+
+Azure CDN: https://learn.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn 
+```text
+   - Create a storage account
+   - Go to 'Front Door and CDN' within the storage account
+   - Create a CDN profile and choose service type (Azure CDN)
+   - Create an endpoint
+   - Test the endpoint
+```
+
+GCP media CDN: https://cloud.google.com/media-cdn/docs/quickstart 
+```text
+   - Create a Cloud Storage bucket.
+   - Upload content to your Cloud Storage bucket.
+   - Make your Cloud Storage buckets publicly readable.
+   - Create an origin to connect Media CDN to your bucket.
+   - Create a Media CDN service.
+   - Test whether a response is being cached.
+```
