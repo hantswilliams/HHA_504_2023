@@ -10,3 +10,5 @@ paginate: true
 - Microsoft Autogen LLMs/Agents: https://www.microsoft.com/en-us/research/project/autogen/ 
 - AWS and Generative Ai: https://pages.awscloud.com/GLOBAL-partner-OE-HCLS-3M-reg-event.html?trk=ae8d8615-f539-47d4-b635-cf01186ff584&sc_channel=em 
 - AWS Salaries: https://www.beckershospitalreview.com/disruptors/amazons-pay-for-16-healthcare-jobs.html
+- Beckers Review - signed up for email - beckershospitalreview 
+
