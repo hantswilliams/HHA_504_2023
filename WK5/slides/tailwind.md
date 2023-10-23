@@ -12,6 +12,16 @@ paginate: true
 
 ---
 
+# Styling apps with CSS: Cascading Style Sheets 
+
+- CSS is a language for styling web pages
+- CSS is used to style HTML elements
+- CSS can be written in a separate stylesheet or inline
+
+https://www.w3schools.com/css/default.asp 
+
+---
+
 # Question:
 
 What is the traditional way of writing CSS?

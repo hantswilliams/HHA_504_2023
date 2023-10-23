@@ -7,7 +7,7 @@ This assignment will give you hands-on experience in video hosting, creating a F
 
 ### **1. Video Creation or Procurement**:
 - Find a relevant video or create one using Zoom that resonates with a theme of your choice.
-  - If you're creating a video, make sure it is clear, concise, and of reasonable length.
+  - If you're creating a video, make sure it is clear, concise, and of reasonable length (< 60 seconds).
 
 ### **2. Cloud CDN & Video Hosting**:
 - Host your video on a CDN, either Google Cloud's Cloud CDN or Azure's Content Delivery Network (CDN).
