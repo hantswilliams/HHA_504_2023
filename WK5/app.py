@@ -26,7 +26,7 @@ session = Session()
 def index():
     # Retrieve data from the database
     patients = session.query(Patient).all()
-    return render_template('index.html', patients=patients)
+    return render_template('index_nostyle.html', patients=patients)
 
 if __name__ == '__main__':
     app.run(debug=True)
