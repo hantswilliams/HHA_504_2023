@@ -70,6 +70,24 @@ A Content Delivery Network (CDN) is a system of distributed servers that deliver
 
 ---
 
+# Speed Differences 
+
+## Hypothetical example
+
+- Without CDN:
+      - User Location: London, UK
+      - Server Location: New York, USA
+      - Distance: Approximately 3,460 miles (5,570 km)
+      - Load Time: 500 ms
+- With CDN:
+      - User Location: London, UK
+      - Nearest CDN Server Location: London, UK
+      - Distance: Approximately 0 miles (0 km)
+      - Load Time: 50 ms
+
+
+---
+
 ![cdn](../slides/images/cdn-illustration.png)
 
 1. Client makes a request to http://assets.domain.com/image.jpg

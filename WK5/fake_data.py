@@ -5,9 +5,13 @@ from db import Patient, MedicalRecord
 import random
 from datetime import timedelta
 
-# Create a SQLite database (you can change this to your specific database)
-DATABASE_URL = "mysql+mysqlconnector://hants:sbu-admin-2023@scratch-server:3306/hants"
-# DATABASE_URL = "mysql+pymysql://hants:sbu-admin-2023@scratch-server:3306/hants"
+# # Create a SQLite database (you can change this to your specific database)
+# DATABASE_URL = "mysql+mysqlconnector://hants:sbu-admin-2023@scratch-server:3306/hants"
+# # DATABASE_URL = "mysql+pymysql://hants:sbu-admin-2023@scratch-server:3306/hants"
+# engine = create_engine(DATABASE_URL)
+
+# Create a SQLite database in the current working directory
+DATABASE_URL = "sqlite:///local.db"
 engine = create_engine(DATABASE_URL)
 
 # Create a session to interact with the database
@@ -40,7 +44,7 @@ def create_fake_medical_record(patient):
     )
 
 # Generate and insert fake data
-for _ in range(10):  # Adjust the number of records you want to generate
+for _ in range(100):  # Adjust the number of records you want to generate
     fake_patient = create_fake_patient()
     session.add(fake_patient)
     session.commit()
