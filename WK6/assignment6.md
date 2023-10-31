@@ -1,7 +1,7 @@
 ## **Week 6 Homework Assignment: Building and Managing APIs with Flask, FastAPI, and Azure**
 
 ### **Objective**:
-The goal of this week's assignment is to develop, document, and manage APIs using Flask and FastAPI. You'll also explore the differences between the two frameworks and integrate your APIs with Azure API Management.
+The goal of this week's assignment is to develop, document, and manage APIs using Flask. You'll also explore the differences between the two frameworks and integrate your APIs with Azure API Management.
 
 ### **Instructions**:
 
@@ -27,7 +27,7 @@ The goal of this week's assignment is to develop, document, and manage APIs usin
 - code to deploy: 
 
 ```
-  gcloud functions deploy python-http-function \
+  gcloud functions deploy bp-checker-hants \
     --gen2 \
     --runtime=python311 \
     --region=us-east1 \
