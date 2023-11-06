@@ -1,7 +1,7 @@
 ## **Week 7 Homework Assignment: Session Management and User Authentication**
 
 ### **Objective**:
-This week, you'll be delving into the core of application security: user sessions and authentication. Utilizing Flask, and external identity providers like Azure and Google Cloud, ensure your Hospital Priceline application is both user-friendly and secure.
+This week, you'll be delving into the core of application security: user sessions and authentication. Utilizing Flask and an external identity provider like Google Cloud, ensure your Hospital Priceline application is both user-friendly and secure.
 
 ### **Instructions**:
 
@@ -11,36 +11,29 @@ This week, you'll be delving into the core of application security: user session
   - Highlight the benefits of using Flask-Session and any challenges encountered.
 
 #### **2. User Authentication with Flask**:
-- Using the `identity` and `identity.web` modules, build a robust user authentication system. This system should cater to:
-  - User registration: Ensure passwords are hashed securely before storing.
-  - User login: Create a user session upon successful login.
+- Build a robust user authentication system utilizing OAuth 2.0 and Google as the identity provider. This system should cater to:
+  - User registration: Automatically register users into your system upon successful authentication with Google.
+  - User login: Create a user session upon successful authentication with Google.
   - User logout: Properly terminate and destroy user sessions upon logout.
-- Document the security precautions you've taken, such as preventing SQL injection, using password hashing, and ensuring secure session management.
+- Document the security precautions you've taken, such as preventing SQL injection, using secure authentication flows, and ensuring secure session management.
 
 #### **3. Cloud-based Authentication System**:
-- Integrate a cloud-based identity provider with your application. You can choose between:
-  - Google Cloud Identity Platform
+- Integrate Google Cloud Identity Platform with your application.
 - Add functionalities like:
   - Sign-in and Sign-out buttons on your app's user interface.
-  - Secure redirecting to and from the cloud identity provider.
+  - Secure redirecting to and from the Google identity provider.
 - Discuss the benefits of using cloud-based identity solutions and their advantages over traditional authentication methods.
-
-#### **4. Advanced Authentication with Azure Managed Identity**:
-- Dive deeper into authentication by following the [Azure Managed Identity with Python](https://learn.microsoft.com/en-us/azure/active-directory/develop/scenario-web-app-sign-user-overview?tabs=python) tutorial.
-  - Enhance the security and user experience of your app's authentication flow.
-  - Document key takeaways, benefits, and any challenges faced during this integration.
 
 ### **Submission**:
 - Create a new GitHub repository named `flask_7_auth` in your GitHub account.
-- Feel free to re-use parts of your code from prior assignments where necessary 
 - Organize your GitHub repository with:
   - Source code reflecting all the changes and integrations made during this assignment.
   - Screenshots or video recordings showcasing the new authentication functionalities.
   - A comprehensive README.md file with:
     - A detailed walkthrough of your user authentication system.
-    - Observations on session management, traditional vs. cloud-based authentication, and advanced authentication measures.
+    - Observations on session management and cloud-based authentication.
     - Challenges faced, measures taken to overcome them, and lessons learned.
 - Share the link to your repository as your assignment submission.
 - Ensure your repository is public for ease of review.
 
-**Tip**: Always remember, user data and identity are critical. Implementing robust authentication and session management systems isn't just about functionality but ensuring the trustworthiness of your application.
+**Tip**: Remember, user data and identity are paramount. Implementing robust authentication and session management systems is not just about functionality but also ensuring the trustworthiness and compliance of your application.
