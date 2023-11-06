@@ -32,9 +32,14 @@ def google():
     )
 
     # Redirect to google_auth function
+    ###note, if running locally on a non-google shell, do not need to override redirect_uri
+    ### and can just use url_for as below
     redirect_uri = url_for('google_auth', _external=True)
-    print(redirect_uri)
+    print('REDIRECT URL: ', redirect_uri)
     session['nonce'] = generate_token()
+    ##, note: if running in google shell, need to override redirect_uri 
+    ## to the external web address of the shell, e.g.,
+    ## redirect_uri = 'https://5000-cs-213132341638-default.cs-us-east1-pkhd.cloudshell.dev/google/auth/'
     return oauth.google.authorize_redirect(redirect_uri, nonce=session['nonce'])
 
 @app.route('/google/auth/')
