@@ -19,7 +19,6 @@ This week, you'll be delving into the core of application security: user session
 
 #### **3. Cloud-based Authentication System**:
 - Integrate a cloud-based identity provider with your application. You can choose between:
-  - Azure Active Directory B2C
   - Google Cloud Identity Platform
 - Add functionalities like:
   - Sign-in and Sign-out buttons on your app's user interface.
