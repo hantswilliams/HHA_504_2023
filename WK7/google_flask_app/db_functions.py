@@ -12,6 +12,7 @@ def get_db():
             email TEXT UNIQUE NOT NULL,
             name TEXT NOT NULL,
             profile TEXT
+            permissions TEXT DEFAULT 'basic'
         )
     ''')
     db.commit()
