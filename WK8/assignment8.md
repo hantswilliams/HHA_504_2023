@@ -1,48 +1,47 @@
-## **Week 8 Homework Assignment: Application Deployment & CI/CD Integration**
+## **Homework Assignment: Dockerizing Flask Applications**
 
 ### **Objective**:
-As developers, not only do we build, but we also deploy. This week is all about taking your Hospital Priceline application to the internet across various platforms and automating your deployment process. You'll be using platforms like Vercel, Google Cloud, Azure, and tools like GitHub Actions and Docker.
+Understanding Docker is crucial for modern software deployment. This assignment focuses on containerizing your Flask applications with Docker, offering hands-on experience with Docker and Docker Compose.
 
 ### **Instructions**:
 
-#### **1. Deploying to Vercel**:
-- Deploy your Hospital Priceline application on Vercel.
-  - Document the steps taken and any configurations you needed to set up.
-  - Share the live link to your deployed application.
-  - (Optional) Acquire and set up a custom domain for your deployed Vercel application.
+#### **1. Dockerizing Your Flask Applications**:
+- Choose two versions of your Flask application for Dockerization.
+  - **Version 1:** Could be a simple "Hello World" Flask app.
+  - **Version 2:** A more complex version of your Flask app, possibly with additional features or complexities.
+- Create Dockerfiles for both versions of your application.
+  - Document the steps taken to create the Dockerfiles.
+  - Explain the purpose of each command in your Dockerfiles.
 
-#### **2. Multicloud Deployment**:
-- Deploy your Hospital Priceline application to:
-  - Google Cloud Run
-  - Azure App Service
-- Document any differences observed during the deployment process on both platforms.
-- Share the live links to your deployed applications on both platforms.
+#### **2. Building and Running Your Docker Containers**:
+- Build Docker images for both versions of your Flask application.
+- Run the Docker containers locally and ensure they are functioning correctly.
+- Document any challenges or observations noted during the building and running process.
 
-#### **3. CI/CD Automation with GitHub Actions**:
-- Set up a CI/CD pipeline using GitHub Actions for your application.
-  - Ensure the pipeline is triggered whenever you push to a specific branch (e.g., `main` or `deploy`).
-  - The pipeline should automate deployment to the Azure App Service.
-  - Document the steps to set up the CI/CD pipeline, including any `.yml` configuration files used.
-  - Share evidence (e.g., screenshots or logs) of successful pipeline runs and application deployments.
+#### **3. (Optional) Using Docker Compose**:
+- Create a `docker-compose.yml` file to run both versions of your Flask application simultaneously.
+  - Include comments in the file to explain its structure and settings.
+  - Run your applications using Docker Compose and document any observations.
 
-#### **4. (Optional) Containerization and Deployment**:
-- Containerize your Flask/FastAPI application using Docker.
-  - Write and document a Dockerfile for your application.
-  - Push your containerized app to Docker Hub.
-- Deploy the containerized application to Azure Container Apps.
-  - Document the deployment process and any challenges faced during containerization and deployment.
-  - Share the live link to your containerized application running on Azure Container Apps.
+#### **4. Reflection**:
+- Reflect on the experience of Dockerizing your applications.
+  - What benefits did Docker bring to your deployment process?
+  - How did Docker solve the issues related to different operating systems, Python, and OS versions?
+  - Discuss any challenges faced and how you overcame them.
 
 ### **Submission**:
-- Create a new GitHub repository named `flask_8_deployment` in your GitHub account.
-- Feel free to re-use parts of your code from prior assignments where necessary 
+- Create a new GitHub repository named `docker_flask_assignment`.
 - The GitHub repository should contain:
-  - All source code and configuration files related to deployments.
-  - Screenshots or video recordings highlighting successful deployments and CI/CD pipeline runs.
-  - A comprehensive README.md file detailing:
-    - Your deployment processes for each platform.
-    - Observations, challenges, and your CI/CD setup.
+  - Dockerfiles for both versions of your Flask application.
+  - `docker-compose.yml` file, if you completed the optional task.
+  - A detailed README.md file explaining:
+    - The process of Dockerizing your Flask applications.
+    - Any challenges faced and how they were resolved.
+    - Reflections on using Docker and Docker Compose.
 - Provide the link to your repository as your assignment submission.
-- Make sure your repository is set to public for ease of review.
+- Ensure your repository is public for evaluation purposes.
 
-**Tip**: Deployment can be tricky, and it's not uncommon to face issues. Document your process thoroughly. It not only helps in troubleshooting but also serves as a guide for future projects.
+**Tips**: 
+- Document your process thoroughly. It's a valuable exercise in understanding Docker and helps in troubleshooting.
+- Don't hesitate to experiment with different configurations in your Dockerfiles and docker-compose.yml.
+

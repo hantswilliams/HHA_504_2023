@@ -25,7 +25,7 @@
 
 ---
 
-## 2. **Healthcare Web Applications: Structure, Security, and Deployment**
+## 2. **Healthcare Web Applications: Intro to Structure, Security, and Deployment**
 ### Lecture Topic:
 - Building and deploying secure web applications for healthcare using Flask and FastAPI.
 
