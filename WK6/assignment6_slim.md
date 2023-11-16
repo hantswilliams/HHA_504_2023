@@ -9,17 +9,21 @@ The goal of this week's assignment is to develop and document APIs using Flask, 
 - Utilize Flask to develop an endpoint that can handle a simple GET request.
 - The response should be in JSON format.
 
-#### **2. Azure API deployment**: 
+#### **2. OpenAPI Specification and Documentation**:
+- Apply this to your app from Part 1 of this assignment 
+- Update your Flask app to include Swagger/OpenAPI documentation.
+- Your app should use the `flasgger` package. Installation and documentation can be found here: [Flasgger GitHub repository](https://github.com/flasgger/flasgger) 
+- Provide docstring documentation style for each endpoint as seen in the Flasgger examples.
+
+#### **3. Azure API deployment**: 
+- Now we will create a new endpoint based on the below tutorial. This is separate from steps 1 and steps 2.
 - Using Azure Functions, re-write your Flask app to be a serverless function using the python package `import azure.functions as func`.
 - Example python tutorial for HTTP function: 
     - [Azure Functions Python HTTP Trigger](https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-python?tabs=macos%2Cbash%2Cazure-cli&pivots=python-mode-decorators) 
 - For deploying, creating service via CLI in GCP shell, refer back to Week 2 slides 25, 26, and 27 for instructions on downloading the CLI and selecting the correct service account.
     - Once you have the CLI installed, you will also need to run `sudo apt-get install azure-functions-core-tools-4` as per the tutorial instructions.
 
-#### **3. OpenAPI Specification and Documentation**:
-- Update your Flask app to include Swagger/OpenAPI documentation.
-- Your app should use the `flasgger` package. Installation and documentation can be found here: [Flasgger GitHub repository](https://github.com/flasgger/flasgger) 
-- Provide docstring documentation style for each endpoint as seen in the Flasgger examples.
+
 
 ### **Submission**:
 - Create a new GitHub repository named `flask_6_api_management` in your GitHub account.
