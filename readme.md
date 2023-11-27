@@ -260,13 +260,22 @@
 
 ## 8. **Deployment in Health Informatics**
 ### Lecture Topic:
-- Tailored deployment strategies and platforms for Flask and FastAPI applications in healthcare
+- Tailored deployment strategies and platforms for Flask and FastAPI applications in healthcare with a special focus on Docker for standardizing deployment.
 
 ### Subtopics:
 - **Deployment Considerations in Health Informatics**:
   - Importance of high availability and scalability in health systems
   - Ensuring HIPAA compliance in deployment environments
   - Security measures: encryption at rest and in transit, private networks, and secure storage
+- **Introduction to Docker in Health Informatics**:
+  - Understanding Docker and containerization.
+  - The role of Docker in ensuring efficient, consistent, and secure deployment.
+- **Dockerizing Flask/FastAPI Applications**:
+  - Creating Dockerfiles and building Docker images for health applications.
+  - Running and managing Docker containers.
+- **Docker Compose in Multi-Container Environments:**
+  - Using Docker Compose for managing multi-container setups.
+  - Orchestrating multiple services like Flask applications and databases.
 - **Serverless Deployment with Vercel**:
   - Introduction and benefits of Vercel's static site deployment services
   - Deploying Flask/FastAPI apps as serverless functions on Vercel with an emphasis on handling health data
