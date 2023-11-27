@@ -1,4 +1,4 @@
-# HHA 504 2023 
+# HHA 504 2023 Intro to Cloud Computing for Health Informaticsts
 
 ## 1. **Introduction to 504 Class**
 ### Lecture Topic:
