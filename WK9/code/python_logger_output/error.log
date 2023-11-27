@@ -1,0 +1,19 @@
+2023-11-27 12:59:39,086 - ERROR - division by zero
+Traceback (most recent call last):
+  File "<stdin>", line 3, in error
+ZeroDivisionError: division by zero
+2023-11-27 12:59:39,086 - ERROR - division by zero 
+ 
+Traceback (most recent call last):
+  File "<stdin>", line 3, in error
+ZeroDivisionError: division by zero
+2023-11-27 12:59:39,086 - ERROR - division by zero 
+ 
+Traceback (most recent call last):
+  File "<stdin>", line 3, in error
+ZeroDivisionError: division by zero
+2023-11-27 12:59:39,086 - ERROR - division by zero 
+ 
+Traceback (most recent call last):
+  File "<stdin>", line 3, in error
+ZeroDivisionError: division by zero
