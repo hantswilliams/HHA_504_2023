@@ -1,0 +1,9 @@
+root - DEBUG - success! total is 200
+root - ERROR - an error occured! can only concatenate str (not "int") to str
+root - ERROR - an error occured! can only concatenate str (not "int") to str
+root - ERROR - an error occured! '>=' not supported between instances of 'str' and 'int'
+root - DEBUG - success! blood sugar: bad
+root - DEBUG - success! blood sugar: bad
+root - DEBUG - success! blood sugar: bad
+root - DEBUG - success! blood sugar: bad
+root - ERROR - an error occured! '>=' not supported between instances of 'str' and 'int'
