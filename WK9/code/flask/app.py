@@ -14,7 +14,7 @@ DB_NAME = os.getenv('DB_NAME')
 print(f'DB_HOSTNAME: {DB_HOSTNAME}, DB_USERNAME: {DB_USERNAME}, DB_PASSWORD: {DB_PASSWORD}, DB_NAME: {DB_NAME}')
 
 sentry_sdk.init(
-    dsn="https://e1f283f2a39cf697473808cb4f826b35@o4504961083834368.ingest.sentry.io/4506299069825024",
+    dsn="INSERT HERE",
     traces_sample_rate=1.0,
     profiles_sample_rate=1.0,
 )
